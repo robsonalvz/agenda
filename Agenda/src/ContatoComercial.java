@@ -1,6 +1,6 @@
 public class ContatoComercial extends Contato {
-	protected String atividade;
-	protected String funcionario;
+	private String atividade;
+	private String funcionario;
 
 	public ContatoComercial(String nome, String atividade, String funcionario) {
 		super(nome);

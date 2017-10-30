@@ -23,9 +23,6 @@ public class AgendaTest {
 		a.inserir(cb2);
 		
 		//Contato comercial
-		ContatoComercial cc = new ContatoComercial("Degrau", "Design", "Presidente");
-		cc.setTelefone(new Telefone("2222-0000", "Telefone residencial"));
-		a.inserir(cc);
 		
 		ContatoComercial cc2 = new ContatoComercial("Elabora", "Comunicação", "Diretor Executivo");
 		cc2.setTelefone(new Telefone("3521-0965", "Telefone residencial"));
@@ -35,7 +32,13 @@ public class AgendaTest {
 		cc3.setTelefone(new Telefone("3422-0986", "Telefone residencial"));
 		a.inserir(cc3);
 		
+		ContatoComercial cc = new ContatoComercial("Degrau", "Design", "Presidente");
+		cc.setTelefone(new Telefone("2222-0000", "Telefone residencial"));
+		a.inserir(cc);
+		
 		//Testes aqui
+		
+		
 		
 	}
 

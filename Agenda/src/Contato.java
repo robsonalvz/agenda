@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public abstract class Contato {
-	protected String nome;
-	protected ArrayList<Telefone> telefones;
+	private String nome;
+	private ArrayList<Telefone> telefones;
 
 	public Contato(String nome) {
 		this.nome = nome;
