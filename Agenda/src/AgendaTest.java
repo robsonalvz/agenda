@@ -1,9 +1,12 @@
-public class Main {
-	
-	public static void main(String[] args) {
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class AgendaTest {
+
+	@Test
+	public void test() {
 		Agenda a = new Agenda();
-		//Contato membro
-		
 		Contato cb = new ContatoMembro("Thamires",25);
 		cb.setTelefone(new Telefone("3333-5555", "Telefone residencial"));
 		cb.setTelefone(new Telefone("99322810", "Telefone celular"));
@@ -32,9 +35,8 @@ public class Main {
 		cc3.setTelefone(new Telefone("3422-0986", "Telefone residencial"));
 		a.inserir(cc3);
 		
-	
-		System.out.println(cb.getDados());
+		//Testes aqui
 		
-
 	}
+
 }
